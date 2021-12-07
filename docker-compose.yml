@@ -1,0 +1,8 @@
+# Usamos a versao 3.6 devido a compatibilidade da funcionalidade de deploy na maquina de produção
+version: '3.6'
+
+services:
+
+  notebook:
+    build:
+      context: ./KNIME
